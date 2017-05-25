@@ -1,0 +1,170 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:2:1-64:12
+	package
+		ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:4:5-36
+		INJECTED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:7:22-64
+uses-permission#android.Manifest.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:8:5-90
+	android:name
+		ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:8:22-87
+application
+ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:10:5-62:19
+MERGED from [com.android.support:design:25.1.0] /Users/Pro/.android/build-cache/cecdbfc9c57552c58228f8a97cd1cf6fa422188a/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.1.0] /Users/Pro/.android/build-cache/e406df494d1f9261377b28acaa843c948cf22c0f/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] /Users/Pro/.android/build-cache/17dd7298ea3cd98fea8f2880d22132aa1c4fb46a/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.1.0] /Users/Pro/.android/build-cache/f9306e22b9949db559eba729909c2448120b144e/output/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:transition:25.1.0] /Users/Pro/.android/build-cache/55b09ed18daf5904a753f83adde80b65ed402e71/output/AndroidManifest.xml:22:5-20
+MERGED from [com.jakewharton.timber:timber:4.4.0] /Users/Pro/.android/build-cache/74ddf1f12bfdd6b32f170deadb9a36c1e15ecf9b/output/AndroidManifest.xml:8:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /Users/Pro/.android/build-cache/857970fe8e15a09fcca2fc67dbc64f49b025aeaf/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/Pro/.android/build-cache/5fc4442584034c1bcca2b1cb871e0b65dfacd636/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/Pro/.android/build-cache/d54c1efbccf29da079eb908e244116afb84b133c/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/Pro/.android/build-cache/d07fa774eb5a89185e750b6db782c04d543201b9/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/Pro/.android/build-cache/aa18114a2541e507ff16d586a8af2e0037ebb7cc/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /Users/Pro/.android/build-cache/277118c4d0904b319e3056979ff578cc50685ff8/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/Pro/.android/build-cache/874001f4cecc3fee2d4d51b3d8c92c71141a77dd/output/AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:14:9-41
+	android:supportsRtl
+		ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:15:9-35
+	tools:ignore
+		ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:17:9-48
+	android:allowBackup
+		ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:12:9-36
+	android:icon
+		ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:13:9-43
+	android:theme
+		ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:16:9-40
+	android:name
+		ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:11:9-37
+activity#com.udacity.stockhawk.ui.MainActivity
+ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:18:9-25:20
+	android:name
+		ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:18:19-50
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:19:13-24:29
+action#android.intent.action.MAIN
+ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:23:27-74
+service#com.udacity.stockhawk.sync.QuoteIntentService
+ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:27:9-29:40
+	android:exported
+		ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:28:13-52
+provider#com.udacity.stockhawk.data.StockProvider
+ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:32:9-35:40
+	android:authorities
+		ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:34:13-56
+	android:exported
+		ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:33:13-47
+service#com.udacity.stockhawk.sync.QuoteJobService
+ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:37:9-41:72
+	android:enabled
+		ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:39:13-35
+	android:exported
+		ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:40:13-36
+	android:permission
+		ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:41:13-69
+	android:name
+		ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:38:13-49
+activity#com.udacity.stockhawk.ui.StockHistory
+ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:43:9-50:20
+	android:label
+		ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:45:13-50
+	android:parentActivityName
+		ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:46:13-58
+	android:name
+		ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:44:13-44
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:47:13-49:73
+	android:value
+		ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:49:17-70
+	android:name
+		ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:48:17-63
+receiver#com.udacity.stockhawk.StockHawkWidgetProvider
+ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:52:9-58:20
+	android:name
+		ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:52:19-58
+intent-filter#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:53:13-55:29
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:54:17-84
+	android:name
+		ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:54:25-81
+meta-data#android.appwidget.provider
+ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:56:13-57:59
+	android:resource
+		ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:57:17-56
+	android:name
+		ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:56:24-65
+service#com.udacity.stockhawk.StackWidgetService
+ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:59:9-61:40
+	android:exported
+		ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:61:13-37
+	android:permission
+		ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:60:13-69
+	android:name
+		ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:59:18-51
+uses-sdk
+INJECTED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:25.1.0] /Users/Pro/.android/build-cache/cecdbfc9c57552c58228f8a97cd1cf6fa422188a/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.1.0] /Users/Pro/.android/build-cache/e406df494d1f9261377b28acaa843c948cf22c0f/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] /Users/Pro/.android/build-cache/17dd7298ea3cd98fea8f2880d22132aa1c4fb46a/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.1.0] /Users/Pro/.android/build-cache/f9306e22b9949db559eba729909c2448120b144e/output/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:recyclerview-v7:25.1.0] /Users/Pro/.android/build-cache/c266f1c1997c0857e0ce45f3c74def0910de8456/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.1.0] /Users/Pro/.android/build-cache/55b09ed18daf5904a753f83adde80b65ed402e71/output/AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife:8.4.0] /Users/Pro/.android/build-cache/6154f14695ad1600c29807f0126b5aca91576ec4/output/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton.timber:timber:4.4.0] /Users/Pro/.android/build-cache/74ddf1f12bfdd6b32f170deadb9a36c1e15ecf9b/output/AndroidManifest.xml:6:5-43
+MERGED from [com.android.support:support-v4:25.3.1] /Users/Pro/.android/build-cache/857970fe8e15a09fcca2fc67dbc64f49b025aeaf/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/Pro/.android/build-cache/5fc4442584034c1bcca2b1cb871e0b65dfacd636/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/Pro/.android/build-cache/d54c1efbccf29da079eb908e244116afb84b133c/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/Pro/.android/build-cache/d07fa774eb5a89185e750b6db782c04d543201b9/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/Pro/.android/build-cache/aa18114a2541e507ff16d586a8af2e0037ebb7cc/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] /Users/Pro/.android/build-cache/277118c4d0904b319e3056979ff578cc50685ff8/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/Pro/.android/build-cache/874001f4cecc3fee2d4d51b3d8c92c71141a77dd/output/AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.1.0] /Users/Pro/.android/build-cache/cecdbfc9c57552c58228f8a97cd1cf6fa422188a/output/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:25.3.1] /Users/Pro/.android/build-cache/857970fe8e15a09fcca2fc67dbc64f49b025aeaf/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/Pro/.android/build-cache/5fc4442584034c1bcca2b1cb871e0b65dfacd636/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/Pro/.android/build-cache/d54c1efbccf29da079eb908e244116afb84b133c/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/Pro/.android/build-cache/d07fa774eb5a89185e750b6db782c04d543201b9/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/Pro/.android/build-cache/aa18114a2541e507ff16d586a8af2e0037ebb7cc/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /Users/Pro/.android/build-cache/277118c4d0904b319e3056979ff578cc50685ff8/output/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:support-v4:25.3.1] /Users/Pro/.android/build-cache/857970fe8e15a09fcca2fc67dbc64f49b025aeaf/output/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:support-v4:25.3.1] /Users/Pro/.android/build-cache/857970fe8e15a09fcca2fc67dbc64f49b025aeaf/output/AndroidManifest.xml:26:9-47

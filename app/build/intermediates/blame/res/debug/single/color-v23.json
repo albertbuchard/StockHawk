@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "/Users/Pro/Google Drive/dev/java/StockHawk/app/build/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
+        "source": "/Users/Pro/.android/build-cache/e406df494d1f9261377b28acaa843c948cf22c0f/output/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/Users/Pro/Google Drive/dev/java/StockHawk/app/build/intermediates/res/merged/debug/color-v23/design_tint_password_toggle.xml",
+        "source": "/Users/Pro/.android/build-cache/cecdbfc9c57552c58228f8a97cd1cf6fa422188a/output/res/color-v23/design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "/Users/Pro/Google Drive/dev/java/StockHawk/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/Users/Pro/.android/build-cache/e406df494d1f9261377b28acaa843c948cf22c0f/output/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/Users/Pro/Google Drive/dev/java/StockHawk/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_thumb.xml",
+        "source": "/Users/Pro/.android/build-cache/e406df494d1f9261377b28acaa843c948cf22c0f/output/res/color-v23/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/Users/Pro/Google Drive/dev/java/StockHawk/app/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/Users/Pro/.android/build-cache/e406df494d1f9261377b28acaa843c948cf22c0f/output/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/Users/Pro/Google Drive/dev/java/StockHawk/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
+        "source": "/Users/Pro/.android/build-cache/e406df494d1f9261377b28acaa843c948cf22c0f/output/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/Users/Pro/Google Drive/dev/java/StockHawk/app/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/Users/Pro/.android/build-cache/e406df494d1f9261377b28acaa843c948cf22c0f/output/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/Pro/Google Drive/dev/java/StockHawk/app/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
+        "source": "/Users/Pro/.android/build-cache/e406df494d1f9261377b28acaa843c948cf22c0f/output/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/Users/Pro/Google Drive/dev/java/StockHawk/app/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
+        "source": "/Users/Pro/.android/build-cache/e406df494d1f9261377b28acaa843c948cf22c0f/output/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/Users/Pro/Google Drive/dev/java/StockHawk/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/Pro/.android/build-cache/e406df494d1f9261377b28acaa843c948cf22c0f/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/Users/Pro/Google Drive/dev/java/StockHawk/app/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/Pro/.android/build-cache/e406df494d1f9261377b28acaa843c948cf22c0f/output/res/color-v23/abc_color_highlight_material.xml"
+    }
+]

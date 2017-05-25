@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/Pro/Google Drive/dev/java/StockHawk/app/build/intermediates/res/merged/debug/xml/stockwidgetinfo.xml",
+        "source": "/Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/res/xml/stockwidgetinfo.xml"
+    },
+    {
+        "merged": "/Users/Pro/Google Drive/dev/java/StockHawk/app/build/intermediates/res/merged/debug/xml/widget_info.xml",
+        "source": "/Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/res/xml/widget_info.xml"
+    }
+]
