@@ -989,10 +989,9 @@ int layout notification_template_part_time 0x7f04003c
 int layout select_dialog_item_material 0x7f04003d
 int layout select_dialog_multichoice_material 0x7f04003e
 int layout select_dialog_singlechoice_material 0x7f04003f
-int layout stock_history 0x7f040040
-int layout support_simple_spinner_dropdown_item 0x7f040041
-int layout widget_layout 0x7f040042
-int layout widget_stock 0x7f040043
+int layout support_simple_spinner_dropdown_item 0x7f040040
+int layout widget_layout 0x7f040041
+int layout widget_stock 0x7f040042
 int menu main_activity_settings 0x7f100000
 int mipmap ic_launcher 0x7f030000
 int string ACTION_DATA_UPDATED 0x7f080015

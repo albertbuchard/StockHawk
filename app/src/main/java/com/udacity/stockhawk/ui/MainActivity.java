@@ -255,9 +255,9 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
     }
 
     public void goToHistory(String symbol) {
-        Intent k = new Intent(this, StockHistory.class);
-        k.putExtra("symbol", symbol);
-        startActivity(k);
+        Intent stockHistoryIntent = new Intent(this, StockHistory.class);
+        stockHistoryIntent.putExtra("symbol", symbol);
+        startActivity(stockHistoryIntent);
     }
 
 

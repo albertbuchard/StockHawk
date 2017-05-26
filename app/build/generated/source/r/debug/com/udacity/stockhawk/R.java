@@ -3376,10 +3376,9 @@ containing a value of this type.
         public static final int select_dialog_item_material=0x7f04003d;
         public static final int select_dialog_multichoice_material=0x7f04003e;
         public static final int select_dialog_singlechoice_material=0x7f04003f;
-        public static final int stock_history=0x7f040040;
-        public static final int support_simple_spinner_dropdown_item=0x7f040041;
-        public static final int widget_layout=0x7f040042;
-        public static final int widget_stock=0x7f040043;
+        public static final int support_simple_spinner_dropdown_item=0x7f040040;
+        public static final int widget_layout=0x7f040041;
+        public static final int widget_stock=0x7f040042;
     }
     public static final class menu {
         public static final int main_activity_settings=0x7f100000;

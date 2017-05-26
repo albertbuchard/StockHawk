@@ -80,35 +80,43 @@ public class AddStockDialog extends DialogFragment {
                 stock_name.setText("");
                 updateButtons();
                 if ((!symbol.isEmpty()) && (symbol != null)) {
-                    new AsyncTask<Void, Void, String>() {
-                        String initialSymbol = null;
-                        protected String doInBackground(Void... params) {
-                            // Background Code
-                            Stock stockObject = null;
-                            initialSymbol = symbol;
-                            try {
-                                stockObject = YahooFinance.get(symbol);
-                            } catch (IOException e) {
-                                e.printStackTrace();
+                    if (isAlpha(symbol)) {
+                        new AsyncTask<Void, Void, String>() {
+                            String initialSymbol = null;
+                            protected String doInBackground(Void... params) {
+                                // Background Code
+                                Stock stockObject = null;
+                                initialSymbol = symbol;
+                                try {
+                                    stockObject = YahooFinance.get(symbol);
+                                } catch (IOException e) {
+                                    e.printStackTrace();
+                                }
+                                return stockObject.getName();
                             }
-                            return stockObject.getName();
-                        }
-                        protected void onPostExecute(String msg) {
-                            if (stock.getText().toString().equals(initialSymbol)) {
-                                if (msg != null) {
-                                    isValidStock = true;
-                                    stock_name.setText(msg);
+                            protected void onPostExecute(String msg) {
+                                if (stock.getText().toString().equals(initialSymbol)) {
+                                    if (msg != null) {
+                                        isValidStock = true;
+                                        stock_name.setText(msg);
+                                    } else {
+                                        stock_name.setText("Invalid stock");
+                                    }
+
+                                    stock.setTextColor(isValidStock ? Color.rgb(0,250,50):Color.RED);
+                                } else {
+                                    stock.setTextColor(Color.LTGRAY);
+                                    stock_name.setText("");
                                 }
 
-                                stock.setTextColor(isValidStock ? Color.rgb(0,250,50):Color.RED);
-                            } else {
-                                stock.setTextColor(Color.LTGRAY);
-                                stock_name.setText("");
+                                updateButtons();
                             }
+                        }.execute();
+                    } else {
+                        stock_name.setText("Character not allowed");
+                        stock.setTextColor(Color.RED);
+                    }
 
-                            updateButtons();
-                        }
-                    }.execute();
                 }
             }
         };
@@ -141,6 +149,18 @@ public class AddStockDialog extends DialogFragment {
         });
 
         return dialog;
+    }
+
+    public boolean isAlpha(String name) {
+        char[] chars = name.toCharArray();
+
+        for (char c : chars) {
+            if(!Character.isLetter(c)) {
+                return false;
+            }
+        }
+
+        return true;
     }
 
     private void updateButtons() {
