@@ -12,6 +12,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v4.content.CursorLoader;
+import android.util.Log;
 import android.widget.RemoteViews;
 import android.widget.RemoteViewsService;
 import android.widget.Toast;
@@ -26,10 +27,22 @@ import yahoofinance.Stock;
  */
 
 public class StockHawkWidgetProvider extends AppWidgetProvider {
-
+    public String updateBroadcast = "com.udacity.stockhawk.ACTION_DATA_UPDATED";
+    public String tag = "widget";
     @Override
     public void onReceive(Context context, Intent intent) {
+
+        if(updateBroadcast.equals(intent.getAction())) {
+            AppWidgetManager appWidgetManager = AppWidgetManager.getInstance(context);
+            int appWidgetIds[] = appWidgetManager.getAppWidgetIds(
+                    new ComponentName(context, StockHawkWidgetProvider.class));
+            for (int i = 0; i < appWidgetIds.length; ++i) {
+                appWidgetManager.notifyAppWidgetViewDataChanged(appWidgetIds[i], R.id.stack_view);
+            }
+        }
+
         super.onReceive(context, intent);
+
     }
 
 

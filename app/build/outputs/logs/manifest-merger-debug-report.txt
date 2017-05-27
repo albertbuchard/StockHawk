@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:2:1-64:12
+ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:2:1-65:12
 	package
 		ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:4:5-36
 		INJECTED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml
@@ -28,7 +28,7 @@ ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManife
 	android:name
 		ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:8:22-87
 application
-ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:10:5-62:19
+ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:10:5-63:19
 MERGED from [com.android.support:design:25.1.0] /Users/Pro/.android/build-cache/cecdbfc9c57552c58228f8a97cd1cf6fa422188a/output/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:appcompat-v7:25.1.0] /Users/Pro/.android/build-cache/e406df494d1f9261377b28acaa843c948cf22c0f/output/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.1.0] /Users/Pro/.android/build-cache/17dd7298ea3cd98fea8f2880d22132aa1c4fb46a/output/AndroidManifest.xml:22:5-20
@@ -109,29 +109,33 @@ ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManife
 	android:name
 		ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:48:17-63
 receiver#com.udacity.stockhawk.StockHawkWidgetProvider
-ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:52:9-58:20
+ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:52:9-59:20
 	android:name
 		ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:52:19-58
-intent-filter#android.appwidget.action.APPWIDGET_UPDATE
-ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:53:13-55:29
-action#android.appwidget.action.APPWIDGET_UPDATE
-ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:54:17-84
+intent-filter#android.appwidget.action.APPWIDGET_UPDATE+com.udacity.stockhawk.ACTION_DATA_UPDATED
+ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:53:13-56:29
+action#com.udacity.stockhawk.ACTION_DATA_UPDATED
+ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:54:17-83
 	android:name
 		ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:54:25-81
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:55:17-84
+	android:name
+		ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:55:25-81
 meta-data#android.appwidget.provider
-ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:56:13-57:59
+ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:57:13-58:59
 	android:resource
-		ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:57:17-56
+		ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:58:17-56
 	android:name
-		ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:56:24-65
+		ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:57:24-65
 service#com.udacity.stockhawk.StackWidgetService
-ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:59:9-61:40
+ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:60:9-62:40
 	android:exported
-		ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:61:13-37
+		ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:62:13-37
 	android:permission
-		ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:60:13-69
+		ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:61:13-69
 	android:name
-		ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:59:18-51
+		ADDED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml:60:18-51
 uses-sdk
 INJECTED from /Users/Pro/Google Drive/dev/java/StockHawk/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:design:25.1.0] /Users/Pro/.android/build-cache/cecdbfc9c57552c58228f8a97cd1cf6fa422188a/output/AndroidManifest.xml:21:5-23:62

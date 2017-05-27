@@ -58,6 +58,7 @@
 
         <receiver android:name="com.udacity.stockhawk.StockHawkWidgetProvider" >
             <intent-filter>
+                <action android:name="com.udacity.stockhawk.ACTION_DATA_UPDATED" />
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>
 

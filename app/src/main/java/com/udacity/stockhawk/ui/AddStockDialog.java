@@ -89,10 +89,11 @@ public class AddStockDialog extends DialogFragment {
                                 initialSymbol = symbol;
                                 try {
                                     stockObject = YahooFinance.get(symbol);
+                                    return stockObject.getName();
                                 } catch (IOException e) {
                                     e.printStackTrace();
                                 }
-                                return stockObject.getName();
+                                return null;
                             }
                             protected void onPostExecute(String msg) {
                                 if (stock.getText().toString().equals(initialSymbol)) {

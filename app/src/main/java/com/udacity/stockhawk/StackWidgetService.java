@@ -6,10 +6,13 @@ import android.content.Intent;
 import android.database.Cursor;
 import android.os.Binder;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.RemoteViews;
 import android.widget.RemoteViewsService;
 
 import com.udacity.stockhawk.data.Contract;
+
+import java.util.ArrayList;
 
 /**
  * Created by Pro on 25.05.17.
@@ -24,7 +27,8 @@ public class StackWidgetService extends RemoteViewsService {
 
 class StackRemoteViewsFactory implements RemoteViewsService.RemoteViewsFactory {
 
-    private Cursor cursor = null;
+    public Cursor cursor = null;
+    public ArrayList<StockData> data = null;
     private Context mContext;
     private int mAppWidgetId;
 
@@ -37,8 +41,6 @@ class StackRemoteViewsFactory implements RemoteViewsService.RemoteViewsFactory {
     // Initialize the data set.
     public void onCreate() {
 
-
-
     }
 
     @Override
@@ -47,11 +49,15 @@ class StackRemoteViewsFactory implements RemoteViewsService.RemoteViewsFactory {
         if (cursor != null) {
             cursor.close();
         }
+
         cursor = mContext.getContentResolver().query(Contract.Quote.URI,
                 new String[]{Contract.Quote.COLUMN_SYMBOL, Contract.Quote.COLUMN_PERCENTAGE_CHANGE, Contract.Quote.COLUMN_ABSOLUTE_CHANGE},
                 null,
                 null,
                 Contract.Quote.COLUMN_SYMBOL);
+        for (int i = 0; i < cursor.getCount(); i++) {
+
+        }
         Binder.restoreCallingIdentity(identityToken);
     }
 

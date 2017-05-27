@@ -214,6 +214,8 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
             error.setVisibility(View.GONE);
         }
         adapter.setCursor(data);
+        Intent dataUpdatedIntent = new Intent(this.getString(R.string.ACTION_DATA_UPDATED));
+        this.sendBroadcast(dataUpdatedIntent);
     }
 
 
